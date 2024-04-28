@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navbar"
+    android:background="@drawable/background_app1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="@drawable/background_app2"
+        android:gravity="bottom"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profileuser"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Wilson"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wilsonjohn1170@example.com"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/house"
+            android:drawablePadding="8dp"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Jenis -Jenis Hewan"
+        android:layout_marginStart="12dp"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+    <LinearLayout
+        android:id="@+id/mamalia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mamalia"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/cow1"
+            android:drawablePadding="8dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/burung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burung"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/parrot"
+            android:drawablePadding="8dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/reptil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reptil"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/crocodile"
+            android:drawablePadding="8dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ikan"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/fish"
+            android:drawablePadding="8dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
